@@ -15,7 +15,7 @@ http.createServer(function(req, res) {
 		fs.readFile(clientPatch + reqPatch, function(err, data) {
 			if(err) return err;
 			res.writeHead(200, {
-				'Content-Type':  fileType
+				'Content-Type': fileType
 			});
 			res.end(data)
 		});
