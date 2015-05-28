@@ -11,12 +11,15 @@ http.createServer(function(req, res) {
 			res.end(data)
 		});
 	}else {
-		var fileType = mime.lookup(clientPatch + reqPatch)
+		var fileType = mime.lookup(clientPatch + reqPatch);
+		console.log(clientPatch + reqPatch);
+
 		fs.readFile(clientPatch + reqPatch, function(err, data) {
 			if(err) return err;
 			res.writeHead(200, {
 				'Content-Type': fileType
 			});
+			// console.log(data);
 			res.end(data)
 		});
 	}
