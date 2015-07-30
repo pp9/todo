@@ -31,7 +31,6 @@ http.createServer(function(req, res) {
 		if(reqPatch == '/save_db') {
 			req.on('data', function(data){
 				fs.writeFile(clientPatch + 'new.json', data);
-				// console.log('' + data);
 			})
 			res.end('GOOD')
 		}
