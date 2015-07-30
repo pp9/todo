@@ -18,6 +18,7 @@ http.createServer(function(req, res) {
 			}else {
 				var fileType = mime.lookup(clientPatch + reqPatch);
 				console.log(clientPatch + reqPatch);
+				console.log('some');
 
 				fs.readFile(clientPatch + reqPatch, function(err, data) {
 					if(err) return err;
