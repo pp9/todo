@@ -22,7 +22,6 @@ http.createServer(function(req, res) {
 					res.writeHead(200, {
 						'Content-Type': fileType
 					});
-					// console.log(data);
 					res.end(data)
 				});
 			}
@@ -34,7 +33,6 @@ http.createServer(function(req, res) {
 				fs.writeFile(clientPatch + 'new.json', data);
 				// console.log('' + data);
 			})
-			// console.log(req);
 			res.end('GOOD')
 		}
 	break;
