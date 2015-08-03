@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+	<title>TUT.BY: Новости ТУТ - Выборы</title>
+	<link>http://news.tut.by/</link>
+	<description>TUT.BY: Новости ТУТ - Выборы</description>
+	<language>ru</language>
+	<image>
+		<url>http://img.tyt.by/i/rss/news/logo.gif</url>
+		<title>TUT.BY: Новости ТУТ - Выборы</title>
+		<link>http://news.tut.by/</link>
+	</image>
+	<pubDate>Thu, 30 Jul 2015 21:33:31 +0300</pubDate>
+	<lastBuildDate>Thu, 16 Jul 2015 00:00:00 +0300</lastBuildDate>
+	<ttl>5</ttl>
+	<atom:link href="http://news.tut.by/rss/elections.rss" rel="self" type="application/rss+xml" />
+</channel>
+</rss>

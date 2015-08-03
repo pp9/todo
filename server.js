@@ -39,3 +39,4 @@ http.createServer(function(req, res) {
 	
 
 }).listen(8000);
+console.log('listen: 8000')
